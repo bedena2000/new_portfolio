@@ -80,7 +80,7 @@ const Header = () => {
       </div>
 
       {
-        isBurgerOpen && (<div className='lg:hidden absolute left-[16px] top-[73px] bg-[#0F172B] rounded-b-lg border-[#314158] border-1 border-t-0'>
+        isBurgerOpen && (<div className='lg:hidden absolute left-[16px] top-[73px] bg-[#0F172B] rounded-b-lg border-[#314158] border-1 border-t-0 z-30 '>
           <div className='px-6 py-3 '>
             <p className='text-[#90A1B9]'># navigate:</p>
           </div>

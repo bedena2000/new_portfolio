@@ -34,8 +34,8 @@ const Footer = () => {
       </div>
 
       <a className='hover:text-[#90A1B9] border-l border-[#62748E] flex' href="https://github.com/bedena2000">
-        <div className='flex items-center px-[54px] gap-[8px]'>
-          <div>
+        <div className='flex items-center px-6 sm:px-[54px] gap-[8px]'>
+          <div className='hidden sm:block'>
             <p>Bedena2000</p>
           </div>
           <div>
