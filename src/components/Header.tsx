@@ -38,19 +38,19 @@ const Header = () => {
         </div>
 
         <div className='hidden lg:flex items-center '>
-          <div className='relative px-8 border-l-[#90A1B9]  border-l-1 py-4 px-6'>
+          <div className='relative px-8 border-l-[#90A1B9]  border-l py-4 px-6'>
             <Link to='/' className={`${isUrlMatch('/', location.pathname) ? 'text-[#F8FAFC]' : ''}`}>_hello</Link>
             {
               isUrlMatch('/', location.pathname) && <div className='w-full h-1 bg-[#FFB86A] absolute left-0 bottom-0'></div>
             }
           </div>
-          <div className='relative px-8 border-l-[#90A1B9]  border-l-1 py-4 px-6'>
+          <div className='relative px-8 border-l-[#90A1B9]  border-l py-4 px-6'>
             <Link to='/about' className={`${isUrlMatch('/about', location.pathname) ? 'text-[#F8FAFC]' : ''}`}>_about-me</Link>
             {
               isUrlMatch('/about', location.pathname) && <div className='w-full h-1 bg-[#FFB86A] absolute left-0 bottom-0'></div>
             }
           </div>
-          <div className='relative px-8 border-l-[#90A1B9]  border-l-1 border-r-1 py-4 px-6'>
+          <div className='relative px-8 border-l-[#90A1B9] border-l border-r-1 py-4 px-6'>
             <Link to='/projects' className={`${isUrlMatch('/projects', location.pathname) ? 'text-[#F8FAFC]' : ''}`}>_projects</Link>
             {
               isUrlMatch('/projects', location.pathname) && <div className='w-full h-1 bg-[#FFB86A] absolute left-0 bottom-0'></div>

@@ -28,7 +28,7 @@ const Home = () => {
       initial='hidden'
       animate='visible'
       variants={fadeInUp}
-      className='bg-[#0F172B] min-h-100 flex items-center justify-center py-[44px] gap-[20px] px-6 overflow-hidden'>
+      className='bg-[#0F172B] min-h-screen flex items-center justify-center py-[44px] gap-[20px] px-6 overflow-hidden'>
 
       <div className='relative z-20 text-center md:text-left  md:w-[500px] flex flex-col gap-[60px]'>
         <div>
