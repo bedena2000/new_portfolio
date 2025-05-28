@@ -29,7 +29,7 @@ export const projectsData: ProjectItem[] = [
       eccomerce_6
     ],
     url: 'eccomercetestreact.netlify.app',
-    tags: ['javascript', 'react'],
+    tags: ['javascript', 'React'],
     githubLink: 'https://github.com/bedena2000/ECommerce_React',
   },
 
@@ -40,7 +40,7 @@ export const projectsData: ProjectItem[] = [
     description: 'Barbershop project',
     images: [barbershop_1, barbershop_2],
     url: 'https://portfolio-barbershop.netlify.app/team',
-    tags: ['javascript', 'html',]
+    tags: ['javascript', 'HTML',]
   }
 
 

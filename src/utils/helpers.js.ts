@@ -91,4 +91,22 @@ export const projectsTags: tagItemTypes[] = [
     tagName: 'HTML',
     tagIcon: FaHtml5,
   }
-]
+];
+
+
+export function IfArrayContains(firstArray: string[], secondArray: string[]) {
+
+  const lengthOfFirstArray = firstArray.length;
+  const lengthOfSecondArray = secondArray.length;
+
+  for(let i = 0; i < lengthOfFirstArray; i++) {
+    for(let m = 0; m < lengthOfSecondArray; m++) {
+      if(firstArray[i] === secondArray[m]) {
+        return true;
+      }
+    }
+  }
+
+  return false;
+
+}
