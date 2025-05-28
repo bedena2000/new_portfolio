@@ -28,7 +28,7 @@ export const projectsData: ProjectItem[] = [
       eccomerce_5,
       eccomerce_6
     ],
-    url: 'eccomercetestreact.netlify.app',
+    url: 'https://eccomercetestreact.netlify.app',
     tags: ['javascript', 'React'],
     githubLink: 'https://github.com/bedena2000/ECommerce_React',
   },

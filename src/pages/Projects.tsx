@@ -46,12 +46,12 @@ const Projects = () => {
       initial='hidden'
       animate='visible'
       variants={fadeInUp}
-      className='bg-[#0F172B] min-h-screen flex'
+      className='bg-[#0F172B] min-h-screen flex flex-col lg:flex-row'
     >
 
-      <div className='w-[200px] border-r border-[#314158]'>
+      <div className='border-r border-[#314158]'>
 
-        <div className='flex items-center gap-3 px-6 py-3 border-b border-l  border-[#314158] cursor-pointer' onClick={handleProjectMenu}>
+        <div className='flex  lg:w-[220px] items-center gap-3 px-6 py-3 border-b border-l  border-[#314158] cursor-pointer lg:border-r-0 border-r' onClick={handleProjectMenu}>
           {isProjectMenuOpen ? <IoMdArrowDropdown size={14} /> : <IoMdArrowDropup size={14} /> }
           <p className='text-[#F8FAFC] text-base'>projects</p>
         </div>
@@ -66,7 +66,7 @@ const Projects = () => {
 
       </div>
 
-      <div className='px-16 py-16 grid grid-cols-3 gap-[40px]'>
+      <div className='lg:px-16 lg:py-16 px-4 py-4 mt-4 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  gap-[40px]'>
 
         {
           currentSelectedTags.length > 0 &&
@@ -88,7 +88,7 @@ const Projects = () => {
         }
 
         {
-          currentSelectedTags.length === 0 && projectsData.map((project) => <ProjectItem id={project.id} title={project.title} projectName={project.projectName} description={project.description} images={project.images} url={project.url} tags={currentSelectedTags} />)
+          currentSelectedTags.length === 0 && projectsData.map((project) => <ProjectItem id={project.id} title={project.title} projectName={project.projectName} description={project.description} images={project.images} url={project.url} tags={currentSelectedTags} key={project.id} />)
         }
 
       </div>
