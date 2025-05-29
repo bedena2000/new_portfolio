@@ -23,7 +23,7 @@ const Footer = () => {
       initial='hidden'
       animate='visible'
       variants={fadeBottom}
-      className='bg-[#0F172B] border-[#314158] border-1 flex justify-between rounded-b-lg'>
+      className='w-full bg-[#0F172B] border-[#314158] border-1 flex justify-between rounded-b-lg'>
       <div className='flex'>
         <div><p className='text-[#90A1B9] py-4 px-[24px]'>find me in:</p></div>
         <div className='border-[#62748E] border-l border-r px-[19px] flex items-center'>

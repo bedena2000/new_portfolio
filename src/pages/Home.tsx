@@ -28,12 +28,12 @@ const Home = () => {
       initial='hidden'
       animate='visible'
       variants={fadeInUp}
-      className='bg-[#0F172B] min-h-screen flex items-center justify-center py-[44px] gap-[20px] px-6 overflow-hidden'>
+      className='bg-[#0F172B] flex-8 flex items-center justify-center py-[44px] gap-[20px] px-6 overflow-hidden'>
 
       <div className='relative z-20 text-center md:text-left  md:w-[500px] flex flex-col gap-[60px]'>
         <div>
           <p className='text-[#90A1B9] text-[18px]'>Hi all. I am</p>
-          <h2 className='text-[#F8FAFC] text-[36px] md:text-[60px]'>Nick</h2>
+          <h2 className='text-[#F8FAFC] text-[36px] md:text-[60px]'>Nika</h2>
           <p className='text-[#615FFF]'>&gt; Front-end developer</p>
         </div>
 

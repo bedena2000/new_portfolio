@@ -28,7 +28,7 @@ const Header = () => {
       initial="hidden"
       animate="visible"
       variants={headerVariants}
-      className='bg-[#0F172B] text-[#90A1B9] flex justify-between  border-[#314158] border-1 rounded-lg rounded-b-none overflow-hidden'>
+      className='w-full bg-[#0F172B] text-[#90A1B9] flex justify-between  border-[#314158] border-1 rounded-lg rounded-b-none overflow-hidden'>
       <div className='flex items-center gap-10 lg:gap-[152px]'>
 
         <div className='pl-9 py-4'>

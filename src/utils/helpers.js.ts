@@ -35,7 +35,7 @@ export const informationForPortfolio: informationItem[] = [
     icon: folderIcon2,
     childrenList: [
       {
-        title: 'Programming',
+        title: 'skills',
       }
     ]
   },
@@ -51,22 +51,25 @@ export const informationForPortfolio: informationItem[] = [
 ];
 
 export const menuOptionsInformation: { [key: string]: informationContent } = {
-  ['about me']: {
-    content: 'i started doing projects since 2022, and i have been doing project since that period and have experience building websites',
-    title: 'bio',
+  ["about me"]: {
+    content:
+      "i started doing projects since 2022, and i have been doing project since that period and have experience building websites",
+    title: "bio",
   },
   experience: {
-    content: 'experience',
-    title: 'bio',
+    content: "experience",
+    title: "bio",
   },
-  programming: {
-    content: 'what i like to do is programming, here is my github with projects: https://github.com/bedena2000',
-    title: 'interests',
+  skills: {
+    content:
+      "i have been building project with react and next. currently learning php and node for backend development",
+    title: 'skills'
   },
   university: {
-    content: 'i was getting bachelor degree in sokhumis universiteti (2021-2025)',
-    title: 'university'
-  }
+    content:
+      "i was getting bachelor degree in sokhumis universiteti (2021-2025)",
+    title: "university",
+  },
 };
 
 export function finalSentenceGenerator(arrayOfWords: string[], amountOfWrap: number) {
